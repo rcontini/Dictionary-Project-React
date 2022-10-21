@@ -16,7 +16,7 @@
   justify-content: center;
 }
 .dictionary input {
-  width: 80%;
+  width: 100%;
   border-radius: 5px;
   padding: 6px 4px;
   border: 1px solid #edf0f4;
