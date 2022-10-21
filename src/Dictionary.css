@@ -7,14 +7,12 @@
   padding: 30px;
   border-radius: 5px;
   box-shadow: 0 10px 10px rgb(0 0 0 /10%);
-  display: block;
-  margin: 0 auto;
 }
-.Dictionary input {
+.dictionary input {
   width: 100%;
   border-radius: 5px;
   padding: 6px 4px;
-  border: 1px solid rgb(253, 213, 243);
+  border: 1px solid #edf0f4;
 }
 .results h2 {
   font-size: 30px;
