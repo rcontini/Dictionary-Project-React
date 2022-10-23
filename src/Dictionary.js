@@ -12,7 +12,7 @@ export default function Dictionary() {
   function handleResponse(response) {
     setResults(response.data[0]);
   }
-  function handlePexelsReponse(response) {
+  function handlePexelsResponse(response) {
     setPhotos(response.data.photos);
   }
 
@@ -28,7 +28,7 @@ export default function Dictionary() {
     let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=9`;
     let headers = { Authorization: `Bearer ${pexelsApiKey}` };
 
-    axios.get(pexelsApiUrl, { headers: headers }).then(handlePexelsReponse);
+    axios.get(pexelsApiUrl, { headers: headers }).then(handlePexelsResponse);
   }
   function handleKeyword(event) {
     setKeyword(event.target.value);
